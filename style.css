@@ -1,0 +1,774 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Roboto", Helvetica, Arial, sans-serif, Segoe UI Symbol;
+}
+  
+.banner {
+    padding: 30px 50px;
+    position: relative;
+}
+
+.bannerbackground {
+    background-color: #011b33;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    top: 0;
+}
+
+.bannertext {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#navbar {
+    position: sticky;
+    padding: 30px 50px;
+    background-color: #f1fef4;
+    top: 0px;
+    z-index: 3;
+    margin-top: -20px;
+}
+
+.navlogo {
+    position: absolute;
+    left: 37px;
+    top: -35px;
+    height: 20px;
+}
+
+.navbarsection1 {
+    position: absolute;
+    left: 200px;
+    top: 25px;
+    height: 20px;
+}
+
+.navbarsection2 {
+    position: absolute;
+    left: 710px;
+    top: 25px;
+    height: 20px;
+}
+
+#navul {
+    list-style-type:none;
+	overflow: hidden;
+}
+
+#options {
+    background-color: #f1fef4;
+    margin-top: -3px;
+}
+
+#options:hover {
+    color:#14C3F7;
+}
+
+li a {
+    display: inline;
+	color: #011b33;
+	text-decoration: none;
+}
+
+li {
+    float: left;
+    display: inline;
+    padding-right: 30px;
+    font-size: 14px;
+}
+
+li a:hover {
+    color: #14C3F7;
+}
+
+#options {
+    text-decoration: none;
+    padding: 3px 3px;
+    border: none;
+    font-size: 14px;
+    color: #011b33;
+    text-align: center;
+}
+
+.navbarbutton {
+    position: absolute;
+    left: 1000px;
+    top: 13px
+}
+
+a.Alink:link, a.Alink:visited {
+    background-color: #03953b; /*#eaf6fc*/
+    color: white;
+    padding: 12px 18px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+a.Alink:hover, a.Alink:active {
+    background-color: #038033;
+    color: white;
+}
+
+section {
+    background-color: #f1fef4;
+}
+
+.headcontainer {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    top: -20px;
+    z-index: 1;
+}
+
+.subheadcontainer1 {
+    position: absolute;
+    top: 150px;
+    left: 33px;
+    z-index: 3;
+}
+
+.headh1 {
+    font-size: 48px;
+    color: #011b33;
+}
+
+.headpara {
+    font-size: 20px;
+    color: #011b33;
+}
+
+a.Alink1:link, a.Alink1:visited {
+    background-color: #03953b; /*#eaf6fc*/
+    color: white;
+    padding: 16px 36px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+a.Alink1:hover, a.Alink1:active {
+    background-color: #038033;
+    color: white;
+}
+
+a.Alinkplain:link, a.Alinkplain:visited {
+    color: #03953b;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.Alinkplain:hover, a.Alinkplain:active {
+    color: #038033;
+}
+
+.subheadcontainer2 {
+    position: absolute;
+    top: 600px;
+    left: 33px;
+    z-index: 2;
+}
+
+.headpara2 {
+    color: #011b33;
+    font-size: 15px;
+}
+
+.subheadcontainer3 {
+    position: absolute;
+    top: 608px;
+    left: 770px;
+    width: 400px;
+    z-index: 1;
+}
+
+.playbutton {
+    position: absolute;
+    left: 1150px;
+    top: 580px;
+    z-index: 4;
+}
+
+.subheadcontainer4 {
+    position: absolute;
+    left: 510px;
+    top: -3px;
+    z-index: 0;
+}
+
+.headpara3 {
+    color: #011b33;
+    font-size: 17px;
+    text-align: right;
+}
+
+.container1 {
+    position: relative;
+    top: -750px;
+}
+
+.subcontainer {
+    position: absolute;
+    top: 850px;
+    left: 30px;
+}
+
+.headingc1 {
+    color: #011b33;
+    font-size: 42px;
+    text-align: left;
+}
+
+.parac1 {
+    color: #011b33;
+    font-size: 20px;
+    text-align: left;
+}
+
+.container2 {
+    position: relative;
+    top: -750px;
+}
+
+.gifcontainer {
+    position: absolute;
+    top: 1010px;
+}
+
+.textcontainer1 {
+    position: absolute;
+    left: 682px;
+    top: 1000px;
+    padding-bottom: 60px;
+}
+
+.listc2a {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    z-index: 2;
+}
+
+.listc2b {
+    position: absolute;
+    left: 270px;
+    top: 250px;
+    z-index: 2;
+}
+
+.lic2, .lic3 {
+    font-size: 15px;
+    color: #011b33;
+    font-weight: 500;
+}
+
+.listticksa {
+    position: absolute;
+    left: -50px;
+    top: 203px;
+    z-index: 1;
+}
+
+.listticksb {
+    position: absolute;
+    left: 200px;
+    top: 203px;
+    z-index: 1;
+}
+
+.listc3 {
+    position: absolute;
+    top: 290px;
+    left: 20px;
+    z-index: 2;
+}
+
+.listticksc {
+    position: absolute;
+    left: -50px;
+    top: 240px;
+    z-index: 1;
+}
+
+.linkc3 {
+    position: absolute;
+    top: 480px;
+}
+
+ul.bodylist {
+    text-align: left;
+    width: 400px;
+}
+
+.listc2 {
+    display: inline;
+    font-size: 15px;
+    list-style-type: disc;
+}
+
+.textcontainer2 {
+    position: absolute;
+    left: 682px;
+    top: 1500px;
+    padding-bottom: 60px;
+}
+
+.headingc2, .headingc3, .headingc4, .headingc5 {
+    color: #011b33;
+    font-size: 35px;
+    text-align: left;
+}
+
+.parac2, .parac3, .parac4 {
+    color: #011b33;
+    font-size: 19px;
+    text-align: left;
+}
+
+.container3 {
+    position: relative;
+    top: -750px;
+}
+
+.textcontainer3 {
+    position: absolute;
+    top: 1888px;
+    left: 30px;
+    padding-bottom: 60px;
+}
+
+.imagecontainer1 {
+    position: absolute;
+    top: 1950px;
+    left: 656px;
+    padding-bottom: 60px;
+}
+
+.container4 {
+    position: relative;
+    top: -750px;
+}
+
+.videocontainer1 {
+    position: absolute;
+    left: 36px;
+    top: 2646px;
+    padding-bottom: 100px;
+}
+
+.textcontainer4 {
+    position: absolute;
+    left: 682px;
+    top: 2730px;
+}
+
+.textcontainer5 {
+    position: absolute;
+    left: 682px;
+    top: 3023px;
+}
+
+.container5 {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    top: 550px;
+}
+
+.textcontainer6 {
+    position: absolute;
+    background-color: #d7f0fd;
+    top: 2903px;
+    height: 400px;
+    width: 1340px;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+.headingc5 {
+    font-size: 48px;
+    color: #011b33;
+}
+
+.parac5 {
+    font-size: 22px;
+    color: #011b33;
+}
+
+.gridcontainer {
+    position: absolute;
+    background-color: #d7f0fd;
+    width: 1400px;
+    height: 500px;
+    top: 3280px;
+    margin-bottom: 200px;
+}
+
+.grid1 {
+    position: absolute;
+    background-color: white;
+    padding: 20px 44px 66px 30px;
+    left: 33px;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 2px 3px 20px 2px #02284b;
+}
+
+.grid2 {
+    position: absolute;
+    background-color: white;
+    padding: 20px 44px 66px 30px;
+    left: 430px; /*    top: -317px; */
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 2px 3px 20px 2px #02284b;
+}
+
+.grid3 {
+    position: absolute;
+    background-color: white;
+    padding: 20px 53px 66px 30px;
+    left: 828px; /*    top: -635px; */
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 2px 3px 20px 2px #02284b;
+}
+
+.gridheading {
+    font-size: 30px;
+    color: #011b33;
+    font-size: 23px;
+}
+
+.gridpara { 
+    font-size: 15px;
+    color: #011b33;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+a.Alinkgrid:link, a.Alinkgrid:visited {
+    color: #011b33;
+    text-align: left;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.Alinkgrid:hover, a.Alinkgrid:active {
+    color: #011b33;
+}
+
+.container6 {
+    position: relative;
+    background-color: white;
+    top: 300px;
+}
+
+.textcontainer7 {
+    position: absolute;
+    left: 30px;
+    top: 3753px;
+}
+
+.headingc6 {
+    font-size: 45px;
+    color: #011b33;
+}
+
+.parac6 {
+    font-size: 22px;
+    color: #011b33;
+}
+
+.imagecontainerc6 {
+    position: absolute;
+    top: 3989px;
+    left: 15px;
+}
+
+.container7 {
+    position: relative;
+    background-color: rgb(240, 248, 252);
+    top: 4670px;
+    width: 1402px;
+    height: 800px;
+    padding-top: 70px;
+}
+
+.textcontainer8 {
+    position: absolute;
+    left: 30px;
+}
+
+.headingc7 {
+    font-size: 44px;
+    color: #011b33;
+}
+
+.parac7 {
+    font-size: 22px;
+    color: #011b33;
+}
+
+.gridcontainer2 {
+    position: absolute;
+    top: 300px;
+}
+
+.grid1a {
+    position: absolute;
+    background-color: white;
+    padding: 20px 44px 66px 30px;
+    left: 33px;
+    border-radius: 5px;
+    width: 300px;
+    height: 250px;
+    text-align: left;
+    box-shadow: 2px 3px 20px 2px #02284b;
+}
+
+.grid2a {
+    position: absolute;
+    background-color: white;
+    padding: 20px 44px 66px 30px;
+    left: 430px; /*    top: -317px; */
+    border-radius: 5px;
+    width: 300px;
+    height: 250px;
+    text-align: left;
+    box-shadow: 2px 3px 20px 2px #02284b;
+}
+
+.grid3a {
+    position: absolute;
+    background-color: white;
+    padding: 20px 53px 66px 30px;
+    left: 828px; /*    top: -635px; */
+    border-radius: 5px;
+    width: 300px;
+    height: 250px;
+    text-align: left;
+    box-shadow: 2px 3px 20px 2px #02284b;
+}
+
+.investorsbio {
+    position: absolute;
+}
+
+.bioimage {
+    position: absolute;
+}
+
+.biotext {
+    position: absolute;
+    left: 66px;
+    width: 200px;
+}
+
+.iname {
+    font-size: 18px;
+    color: #011b33;
+}
+
+.ititle {
+    color: #011b33;
+    font-size: 14px;
+}
+
+#bioimg {
+    border-radius: 50%;
+}
+
+.container8 {
+    position: relative;
+    top: 4755px;
+}
+
+.textcontainer9 {
+    position: absolute;
+    left: 30px;
+}
+
+.buttonc8 {
+    position: absolute;
+    left: 990px;
+}
+
+.headingc8 {
+    font-size: 44px;
+    color: #011b33;
+}
+
+.parac8 {
+    font-size: 21px;
+    color: #011b33;
+}
+
+a.Alinkc8:link, a.Alinkc8:visited {
+    background-color: #03953b; /*#eaf6fc*/
+    color: white;
+    padding: 15px 35px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+a.Alinkc8:hover, a.Alinkc8:active {
+    background-color: #038033;
+    color: white;
+}
+
+footer {
+    background-color: white;
+    padding: 20px 20px 520px 20px;
+    position: relative;
+    top: 5000px;
+}
+
+.category1 {
+    text-align: left;
+    position: absolute;
+    left: 40px;
+    top: 35px;
+    width: 300px;
+}
+
+.category2 {
+    text-align: left;
+    position: absolute;
+    left: 300px;
+    top: 35px;
+    width: 220px;
+}
+
+.category3 {
+    text-align: left;
+    position: absolute;
+    left: 610px;
+    top: 35px;
+    width: 220px;
+}
+
+.category4 {
+    text-align: left;
+    position: absolute;
+    left: 950px;
+    top: 35px;
+}
+
+.category5 {
+    text-align: left;
+    position: absolute;
+    left: 30px;
+    top: 660px;
+    width: 300px;
+}
+
+.addresses {
+    position: relative;
+}
+
+.category6 {
+    text-align: left;
+    position: absolute;
+    left: 280px;
+    top: 630px;
+    width: 300px;
+}
+
+.category7 {
+    text-align: left;
+    position: absolute;
+    left: 590px;
+    top: 630px;
+    width: 300px;
+}
+
+.category8 {
+    text-align: left;
+    position: absolute;
+    left: 950px;
+    top: 630px;
+    width: 300px;
+}
+
+.category9 {
+    text-align: left;
+    position: absolute;
+    left: 280px;
+    top: 820px;
+    width: 300px;
+}
+
+.category10 {
+    text-align: left;
+    position: absolute;
+    left: 590px;
+    top: 820px;
+    width: 300px;
+}
+
+.category11 {
+    text-align: left;
+    position: absolute;
+    left: 950px;
+    top: 820px;
+    width: 300px;
+    padding-bottom: 200px;
+}
+
+.fa-brands {
+    color: rgb(90, 125, 134);
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+span {
+    color: rgb(106, 198, 254);
+    text-decoration: none;
+}
+
+.footerheading {
+    font-size: 18px;
+    color: #011b33;
+}
+
+.footerli {
+    font-size: 16px;
+    color: #02284b;
+    padding: 0px 96px 10px 0px;
+}
+
+#footerul {
+    list-style-type: circle;
+    overflow: hidden;
+}
+
+.footerpara {
+    font-size: 16px;
+    color: #02284b;
+}
+
+.footerpara0 {
+    font-size: 16px;
+    color: rgb(90, 125, 134);
+}
